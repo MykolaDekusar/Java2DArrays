@@ -24,6 +24,23 @@ public class Main {
 				System.out.print(macchine[i][j]+" ");
 			}
 		}
+		System.out.println();
+		//un altro metodo per scrivere un array 2d è
+		
+		String[][] cars = {
+							{"Mazda","Subaru"},
+							{"Citroen","Hyundai"}
+						  };
+		//l'array 2d cars è composto da 2righe(0,1) e 2colonne(0,1)
+		//stampiamo i valori
+				for(int i=0;i<cars.length;i++) {
+					System.out.println();//vado a capo dopo aver scritto una riga
+					//ciclo sulla lunghezza della riga delle macchine nell'indice i
+					for(int j=0;j<cars[i].length;j++) {
+						//stampo i valori della riga e delle colonne presenti in quella riga
+						System.out.print(cars[i][j]+" ");
+					}
+				}
 	}
 
 }
