@@ -15,6 +15,15 @@ public class Main {
 		macchine[1][0]="Citroen";  //riempio la seconda riga e le 2 colonne
 		macchine[1][1]="Hyundai";  //riempio la seconda riga e le 2 colonne
 		
+		//stampiamo i valori
+		for(int i=0;i<macchine.length;i++) {
+			System.out.println();//vado a capo dopo aver scritto una riga
+			//ciclo sulla lunghezza della riga delle macchine nell'indice i
+			for(int j=0;j<macchine[i].length;j++) {
+				//stampo i valori della riga e delle colonne presenti in quella riga
+				System.out.print(macchine[i][j]+" ");
+			}
+		}
 	}
 
 }
